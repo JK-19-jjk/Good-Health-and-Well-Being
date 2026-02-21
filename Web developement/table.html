@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Opportunities | Health in Action</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="TableStyle.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png" alt="Health in Action Logo">
+        </a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="team.html">Team</a></li>
+    </ul>
+    <div class="user-icon">
+        <a href="profile.html">
+            <img src="images/user.png" alt="User Profile">
+        </a>
+    </div>        
+</nav>
+
+<!-- Table Section -->
+<section class="table-container">
+    <div class="logo-container">
+        <!-- Logo will be added here -->
+        <img src="images/logo.png" alt="Health in Action Logo">
+    </div>
+    
+    <div class="table-header">
+        <h1>Health Campaign Programs</h1>
+        <p>Join our community campaigns to promote health and well-being</p>
+    </div>
+    
+    <table class="opportunities-table" aria-label="Table of health campaigns and their programs">
+        <thead>
+            <tr>
+                <th>Campaign</th>
+                <th>Program</th>
+                <th>
+                    <img src="images/medical.png" alt="medical icon">
+                    <span>Medical Assistant</span>
+                    <!--<span class="tooltip" aria-label="Programs focusing on youth health">Programs focusing on youth health and well-being</span>-->
+                </th>
+                <th>
+                    <img src="images/healthEdu.png" alt="health icon">
+                    <span>Health Education</span>
+                    <!--<span class="tooltip" aria-label="Programs supporting elderly well-being">Support and care programs for elderly population</span>-->
+                </th>
+                <th>
+                    <img src="images/group.png" alt="community icon">
+                    <span>Community Support</span>
+                    <!--<span class="tooltip" aria-label="Mental health focused programs">Programs supporting mental health and wellness</span>-->                
+                </th>
+        
+                <th>
+                    <img src="images/clock.png" alt="Clock icon">
+                    <span>Time Commitment</span>
+                    <!--<span class="tooltip" aria-label="Time commitment required">Weekly hours required for participation</span>-->
+                </th>
+                <th>Apply</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Youth Health Campaign -->
+            <tr>
+                <td rowspan="4" class="campaign-cell">Youth Health Campaign</td>
+                <td>Physical Fitness Programs</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="commitment-medium">5-10 hrs</span></td>
+                <td rowspan="4"><a href="#" class="apply-btn" aria-label="Apply for Youth Health Campaign">Apply</a></td>
+            </tr>
+            <tr>
+                <td>Nutrition Workshops</td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="commitment-low">2-5 hrs</span></td>
+            </tr>
+            <tr>
+                <td>Digital Detox</td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                
+                <td><span class="commitment-medium">5-10 hrs</span></td>
+            </tr>
+            <tr>
+                <td>Vaccination</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                
+                <td><span class="commitment-medium">5-10 hrs</span></td>
+            </tr>
+            <!-- Elderly Care Campaign -->
+            <tr>
+                <td rowspan="3" class="campaign-cell">Elderly Care Campaign</td>
+                <td>Medical Check-ups</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+        
+                <td><span class="commitment-high">10+ hrs</span></td>
+                <td rowspan="3"><a href="#" class="apply-btn" aria-label="Apply for Elderly Care Campaign">Apply</a></td>
+            </tr>
+            <tr>
+                <td>Fitness Programs</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                
+                <td><span class="commitment-low">2-5 hrs</span></td>
+            </tr>
+            <tr>
+                <td>Deliver nutrition meals</td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                
+                <td><span class="commitment-low">2-5 hrs</span></td>
+            </tr>
+            <!-- Mental Health Awareness -->
+            <tr>
+                <td rowspan="3" class="campaign-cell">Mental Health Awareness</td>
+                <td>Meditation</td>
+                <td><span class="tick-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="cross-icon" aria-label="Yes">✓</span></td>
+                
+                <td><span class="commitment-medium">5-10 hrs</span></td>
+                <td rowspan="3"><a href="#" class="apply-btn" aria-label="Apply for Community Outreach">Apply</a></td>
+            </tr>
+            <tr>
+                <td>well-being at Work</td>
+                <td><span class="tick-icon" aria-label="No">✗</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="No">✗</span></td>
+                
+                <td><span class="commitment-medium">5-10 hrs</span></td>
+            </tr>
+            <tr>
+                <td>Counselling</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="No">✗</span></td>
+                <td><span class="cross-icon" aria-label="No">✗</span></td>
+                
+                <td><span class="commitment-low">2-5 hrs</span></td>
+            </tr>
+
+            <!-- Sleep -->
+            <tr>
+                <td rowspan="2" class="campaign-cell">Sleep well-Live well</td>
+                <td>Sleep awareness session</td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="Yes">✓</span></td>
+                <td><span class="tick-icon" aria-label="No">✗</span></td>
+                
+                <td><span class="commitment-low">2-5 hrs</span></td>
+                <td><a href="#" class="apply-btn" aria-label="Apply for Educational Programs">Apply</a></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="editor-link">
+        <a href="pageEditor_ST2.html">Student 2 Editor Page</a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+<!--footer-->
+<footer class="footer">
+    <div class="footer-container">
+        <!-- All sections in a single row -->
+        <div class="footer-row">
+            <!-- Page Editors Section -->
+            <div class="footer-column">
+                <h3>Page Editors</h3>
+                <ul class="editor-links">
+                    <li><a href="pageEditor_ST1.html" target="_blank">Student 1's Editor</a></li>
+                    <li><a href="pageEditor_ST2.html" target="_blank">Student 2's Editor</a></li>
+                    <li><a href="pageEditor_ST3.html" target="_blank">Student 3's Editor</a></li>
+                    <li><a href="pageEditor_ST4.html" target="_blank">Student 4's Editor</a></li>
+                </ul>
+            </div>
+            
+            <!-- Content Pages Section -->
+            <div class="footer-column">
+                <h3>Content Pages</h3>
+                <ul class="editor-links">
+                    <li><a href="Content_ST1.html" target="_blank">Student 1's Content Page</a></li>
+                    <li><a href="Content_ST2.html" target="_blank">Student 2's Content Page</a></li>
+                    <li><a href="Content_ST3.html" target="_blank">Student 3's Content Page</a></li>
+                    <li><a href="Content_ST4.html" target="_blank">Student 4's Content Page</a></li>
+                </ul>
+            </div>
+            
+            <!-- About Section -->
+            <div class="footer-column about">
+                <h3>About This Website</h3>
+                <p>This website was developed as part of the Web Design and Development coursework at the University of Westminster.</p>
+                <p>It focuses on UN Sustainable Development Goal [Number].</p>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="copyright">
+            &copy; 2025 University of Westminster. All rights reserved.
+        </div>
+    </div>
+</footer>
+</body>
+</html>

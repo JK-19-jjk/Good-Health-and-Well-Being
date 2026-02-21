@@ -1,0 +1,204 @@
+/* Table specific styles */
+.table-container {
+    max-width: 1200px;
+    margin: 120px auto 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid #8a0505;
+}
+
+.logo-container img {
+    width: 80%;
+    height: auto;
+}
+
+.table-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8a0505;
+}
+
+.table-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.table-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.opportunities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.opportunities-table th {
+    background-color: #8a0505;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.opportunities-table th img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.opportunities-table th .tooltip {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.opportunities-table th:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.opportunities-table tr:nth-child(even) {
+    background-color: #f2f8f2;
+}
+
+.opportunities-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.opportunities-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.opportunities-table tr:hover td {
+    background-color: #f5e6e6;
+}
+
+.tick-icon {
+    color: #4CAF50;
+    font-size: 1.5rem;
+}
+
+.cross-icon {
+    color: #8a0505;
+    font-size: 1.5rem;
+}
+
+.apply-btn {
+    background-color: #8a0505;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.apply-btn:hover {
+    background-color: #630404;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.commitment-low {
+    background-color: #c6e0a7;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.commitment-medium {
+    background-color: #ffd56b;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.commitment-high {
+    background-color: #ffac6b;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.campaign-cell {
+    background-color: #e6f2e6;
+    font-weight: bold;
+    color: #8a0505;
+    vertical-align: middle;
+}
+
+/* Editor link in footer */
+.editor-link {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f7ed;
+    border-radius: 5px;
+}
+
+.editor-link a {
+    color: #8a0505;
+    text-decoration: underline;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .opportunities-table {
+        font-size: 14px;
+    }
+    
+    .opportunities-table th, 
+    .opportunities-table td {
+        padding: 8px 5px;
+    }
+    
+    .table-header h1 {
+        font-size: 1.8rem;
+    }
+}
